@@ -7,5 +7,8 @@ namespace EMailService.Models
 {
     public class Expense
     {
+		public string CostCentre { get; set; }
+		public string Paymentmethod { get; set; }
+		public decimal Total { get; set; }
     }
 }
