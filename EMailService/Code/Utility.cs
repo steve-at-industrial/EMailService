@@ -133,6 +133,11 @@ namespace EMailService.Code
             }
             return result;
         }
+		/// <summary>
+        /// Return a Reservation response from our text
+        /// </summary>
+        /// <param name="body"></param>
+        /// <returns></returns>
 	    public static Reservation GetReservationResponse(string body)
 	    {
 		    var result = new Reservation();
